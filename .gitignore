@@ -1,0 +1,62 @@
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.ide
+
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+**/out/
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Packages
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# NuGet
+project.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+# Windows Forms specific
+**/*.Designer.cs
+**/*.resx
+**/Properties/Resources.Designer.cs
+**/Properties/Settings.Designer.cs
+
+# Debug and Release
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.cache
+*.csproj.user
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Other
+*.bak
+*.swp
